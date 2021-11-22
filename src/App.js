@@ -1,8 +1,14 @@
+import { ChakraProvider, Heading } from "@chakra-ui/react";
+
 function App() {
   return (
-    <div>
-      <header>Aitor Alejandro Portfolio</header>
-    </div>
+    <ChakraProvider>
+      <div>
+        <header>
+          <Heading as="h1">Aitor Alejandro Portfolio</Heading>
+        </header>
+      </div>
+    </ChakraProvider>
   );
 }
 
