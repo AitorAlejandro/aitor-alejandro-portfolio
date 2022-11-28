@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Varela+Round&display=swap");
+
+:root {
+  --body-background-color: #efeff1;
+  --description-text-color: #85819f;
+  --text-color: #2c2851;
+  --action-button-color: #6cf5c2;
+  --white-color: #ffffff;
+
+  --font-family-stack: "Varela Round", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: var(--font-family-stack);
+}
+
+body {
+  background-color: var(--body-background-color);
+  color: var(--text-color);
+}
