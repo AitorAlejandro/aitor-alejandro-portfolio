@@ -1,0 +1,8 @@
+.app-wrapper {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 1.5rem;
+  text-align: center;
+}
